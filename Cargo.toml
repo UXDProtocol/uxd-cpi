@@ -1,6 +1,6 @@
 [package]
 name = "uxd-cpi"
-version = "7.0.6-devnet"
+version = "7.0.6-rc1"
 authors = [
   "acammm <alexcamill@gmail.com>",
   "cnek <ctk2012ac@gmail.com>",
