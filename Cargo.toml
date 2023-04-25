@@ -18,6 +18,7 @@ no-entrypoint = []
 no-idl = []
 no-log-ix-name = []
 cpi = ["no-entrypoint"]
+development = []
 
 [dependencies]
 anchor-gen = "0.3.1"
