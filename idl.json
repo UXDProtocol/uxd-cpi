@@ -1831,27 +1831,27 @@
             "type": "u128"
           },
           {
-            "name": "routerIdentityDepositoryWeightBps",
+            "name": "identityDepositoryWeightBps",
             "type": "u16"
           },
           {
-            "name": "routerMercurialVaultDepositoryWeightBps",
+            "name": "mercurialVaultDepositoryWeightBps",
             "type": "u16"
           },
           {
-            "name": "routerCredixLpDepositoryWeightBps",
+            "name": "credixLpDepositoryWeightBps",
             "type": "u16"
           },
           {
-            "name": "routerIdentityDepository",
+            "name": "identityDepository",
             "type": "publicKey"
           },
           {
-            "name": "routerMercurialVaultDepository",
+            "name": "mercurialVaultDepository",
             "type": "publicKey"
           },
           {
-            "name": "routerCredixLpDepository",
+            "name": "credixLpDepository",
             "type": "publicKey"
           },
           {
@@ -2166,7 +2166,7 @@
       }
     },
     {
-      "name": "EditControllerRouterDepositoriesWeightBps",
+      "name": "EditDepositoriesRoutingWeightBps",
       "type": {
         "kind": "struct",
         "fields": [
@@ -2186,7 +2186,7 @@
       }
     },
     {
-      "name": "EditControllerRouterDepositories",
+      "name": "EditRouterDepositories",
       "type": {
         "kind": "struct",
         "fields": [
@@ -2217,10 +2217,10 @@
             }
           },
           {
-            "name": "routerDepositoriesWeightBps",
+            "name": "depositoriesRoutingWeightBps",
             "type": {
               "option": {
-                "defined": "EditControllerRouterDepositoriesWeightBps"
+                "defined": "EditDepositoriesRoutingWeightBps"
               }
             }
           },
@@ -2228,7 +2228,7 @@
             "name": "routerDepositories",
             "type": {
               "option": {
-                "defined": "EditControllerRouterDepositories"
+                "defined": "EditRouterDepositories"
               }
             }
           }
@@ -3122,5 +3122,8 @@
       "name": "Default",
       "msg": "Default - Check the source code for more info."
     }
-  ]
+  ],
+  "metadata": {
+    "address": "EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u"
+  }
 }
