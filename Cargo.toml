@@ -23,4 +23,6 @@ development = []
 [dependencies]
 anchor-gen = "0.3.1"
 anchor-lang = "0.26.0"
-borsh = { version = "0.9", features = ["const-generics"] }
+
+solana-program = "=1.14.17"
+borsh = { features = ["const-generics"] }
