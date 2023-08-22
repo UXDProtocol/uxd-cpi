@@ -1,6 +1,6 @@
 [package]
 name = "uxd-cpi"
-version = "8.1.4"
+version = "8.1.5"
 authors = [
   "acammm <alexcamill@gmail.com>",
   "cnek <ctk2012ac@gmail.com>",
@@ -24,5 +24,5 @@ development = []
 anchor-gen = "0.3.1"
 anchor-lang = "0.26.0"
 
-solana-program = "=1.14.21"
+solana-program = "=1.16.8"
 borsh = { version = "0.9", features = ["const-generics"] }
