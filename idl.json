@@ -542,12 +542,6 @@
           "isMut": false,
           "isSigner": false,
           "docs": ["#21"]
-        },
-        {
-          "name": "clock",
-          "isMut": false,
-          "isSigner": false,
-          "docs": ["#22"]
         }
       ],
       "args": [
@@ -3639,9 +3633,14 @@
       "code": 6057,
       "name": "MaximumOutflowAmountError",
       "msg": "Redeem resulted into too much outflow in this epoch, please wait or try again with a smaller amount."
+    },
+    {
+      "code": 6058,
+      "name": "InvalidOutflowLimitPerEpochBps",
+      "msg": "The outflow_limit_per_epoch_bps is invalid: over 100%."
     }
   ],
   "metadata": {
-    "address": "EqMrasrCXsbE6mpXaopUH1qip7auwX4AF5UWWpXaLr6u"
+    "address": "CW5VzSk7WC4NPyuNt19VFev9FUHhyk5xxHTj2DUWBexu"
   }
 }
